@@ -22,8 +22,8 @@ Hard Mode 1-100
 [Github-Repo](https://github.com/mkheck13/MCEightToTenEndpoints)
 
 
-## FeedBack/Peer Review:
+## FeedBack/Peer Review: Everything runs correctly and your code looks good. I like how you did the restaurant picker with an array instead of how I did it with a switch statement, because it looks much easier and faster to code. Great work!
 
-**Reviewer:** 
+**Reviewer:** Bowen Henry
 
 **Comments:** 
