@@ -4,8 +4,8 @@ namespace MCEightToTenEndpoints.Services
     {
         public string FoodPicker(string pizzaMexicanFastFood)
         {
-            string[] pizza = new string[]
-            {
+            string[] pizza =
+            [
                 "Dominos",
                 "Pizza Hut",
                 "Mountain Mike's",
@@ -16,9 +16,9 @@ namespace MCEightToTenEndpoints.Services
                 "Michael's Pizza",
                 "Eric's Pizza",
                 "Dante's Pizza"
-            };
-            string[] mexican = new string[]
-            {
+            ];
+            string[] mexican =
+            [
                 "Taco House",
                 "Yellow House",
                 "Don Rafas",
@@ -29,9 +29,9 @@ namespace MCEightToTenEndpoints.Services
                 "Maria's Cafe",
                 "Susy's",
                 "Arroyo's"
-            };
-            string[] fastFood = new string[]
-            {
+            ];
+            string[] fastFood =
+            [
                 "MCDonald's",
                 "Burger King",
                 "Wendy's",
@@ -42,7 +42,7 @@ namespace MCEightToTenEndpoints.Services
                 "A&W",
                 "The Habit",
                 "In N Out"
-            };
+            ];
 
             int randomIndex = new Random().Next(0, 10);
 

@@ -4,8 +4,8 @@ namespace MCEightToTenEndpoints.Services
     {
         public string Question()
         {
-            string[] fortune = new string[]
-            {
+            string[] fortune =
+            [
                 "It is certain",
                  "It is decidedly so",
                  "Without a doubt",
@@ -27,7 +27,7 @@ namespace MCEightToTenEndpoints.Services
                  "Outlook not so good",
                  "Very doubtful",
                  "ERROR 404\nPAGE NOT FOUND"
-            };
+            ];
 
             int randomIndex = new Random().Next(0, fortune.Length);
 
