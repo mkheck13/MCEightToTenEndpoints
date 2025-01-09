@@ -19,6 +19,10 @@ namespace MCEightToTenEndpoints.Controllers
         }
 
         [HttpGet]
-        [Route]
+        [Route("Question")]
+        public string Question()
+        {
+            return _magicEightBallServices.Question();
+        }
     }
 }

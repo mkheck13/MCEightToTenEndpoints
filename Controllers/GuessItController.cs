@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace MCEightToTenEndpoints.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class GuessItController : ControllerBase
     {
         
